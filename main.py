@@ -7,7 +7,7 @@ print("Ok", name, "you are", age, "years old")
 if age >= "10" and age <= "100":
     print("You are old enough to play")
     want_to_play = input("Do you want to play? [yes/no] : ")
-    if want_to_play == "yes":
+    if want_to_play.lower() == "yes":
         print("Ok", name, "you are starting with", health, "health")
         print("Let's start")
         dir1 = input(
