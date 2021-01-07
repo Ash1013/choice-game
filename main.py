@@ -1,7 +1,7 @@
 # Hi, this is a multiple choice game wich moves based on your choice
 print("Welcome to my first game")
 name = input("Enter your name : ")
-age = input("Enter your age : ")
+age = int(input("Enter your age : "))
 health = 10
 print("Ok", name, "you are", age, "years old")
 if age >= "10" and age <= "100":
